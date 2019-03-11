@@ -1,0 +1,458 @@
+ body{
+      overflow-x: hidden;
+      
+ }
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#header{
+    width:100%;
+    height:100px;
+    background-color:#80BDFF ;
+    background-image: url(../images/e-shop-logo2.png);
+    background-repeat: no-repeat;
+    background-size:350px 100px;
+    background-position: 25%;
+    
+
+}
+
+
+
+
+
+#section{
+    margin-top:5px;
+
+    float:right;
+    text-align:center;
+    width:80%;
+    margin-right:70px;
+    height:600px;
+    display:inline;
+    border-radius:20px;
+     background-color:#80BDFF;
+    overflow-y: hidden;
+
+
+
+}
+
+#form{
+     margin-top:5px;
+    border:1px solid #80BDFF;
+    float:left;
+    text-align:center;
+    width:60%;
+    margin-left:21%;
+    height:620px;
+    display:inline;
+    border-radius:20px;
+     background-color:#80BDFF;
+        
+}
+
+#article{
+    margin-top:-16px;
+}
+
+
+.item{
+    background-color:snow;
+    width: 230px;
+    height:280px;
+    color: #000;
+    border-radius:5px;
+    float:left;
+    margin:10px;
+
+}
+
+
+#sec{
+    border:1px solid whitesmoke;
+   
+}
+
+#u-links{
+    margin-right: 5px;
+}
+
+#shopping-cart-img{
+    padding: 0px 40px;
+    background-image: url(../images/usernamecart2.jpg);
+   color:#2E9BDF;
+   background-repeat: no-repeat;
+     background-size:40px 27px; ;
+    margin-bottom: 0px;
+    margin-right:20px;
+    
+}
+
+#shopping-cart-img:hover{
+
+    box-shadow:  0 0 0 1px deepskyblue;
+    text-decoration: none;
+}
+
+
+
+#shopping-div{
+   position:absolute;
+    z-index: 1;
+    width:510px;
+    height:100px;
+    overflow-y: auto;
+    overflow-x:hidden ;
+    background: white;
+    margin:130px 0px 0px 450px;
+    display:none;
+
+
+
+}
+
+
+
+#items{
+    float:left;
+    width:510px;
+
+
+}
+
+.cprize{
+    width:40px;
+    margin-right: 30px;
+
+}
+
+.titles{
+    width:240px;
+    height:20px;
+
+}
+
+
+#image-div{
+    float:left;
+    width:300px;
+    height:330px;
+}
+
+ #items span{
+     float:left;
+     padding:0px 18px 0px 18px;
+
+ }
+
+
+
+ .total{
+     float:right;
+ }
+
+#aside{
+    margin-top:5px;
+    border:1px solid #80BDFF;
+    height:500px;
+    width:11%;
+    position:relative;
+    text-align:center;
+    display:inline;
+    float:left;
+    border-radius:10px;
+        background-color:#80BDFF;
+         overflow-y:auto;
+}
+
+
+
+#footer{
+ 
+    width:80%;
+    height:60px;
+
+    background-color:#80BDFF;
+    text-align:center;
+    border-radius:25px;
+    padding-top:15px;
+    
+    font-size:20px;
+    display:inline-block;
+    margin:3% 11%;
+
+}
+
+#section,#aside,#footer{
+    color:white;
+}
+
+.cimage{
+    width:20px;
+    height:20px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 359px) {
+    #header{
+        background-size:280px 100px;
+    }
+}
+
+.href-item:hover{
+    text-decoration: none;
+}
+
+.item:hover{
+    text-decoration: none;
+}
+
+ .title{
+   color:#b3d7ff;
+ }
+
+ .title-div{
+     color:white;
+ }
+
+ .pab{
+     float:right;
+     margin:20px 170px;
+
+ }
+
+ .desc{
+    width:450px;
+     height:220px;
+     float:right;
+     overflow-y: auto;
+
+     margin-right:50px;
+
+ }
+
+ .img-item{
+     width:228px;
+     height:200px;
+     margin-bottom:-3px ;
+ }
+
+ .item-price{
+     color:#695537;
+ }
+
+ .quantity-input{
+     width:30px;
+ }
+
+ .horizontal-item{
+     background-color: #2E9BDF;
+ }
+
+ .item-div{
+     margin-top: 4px;
+    width:940px;
+     height:332px;
+     border:1px solid #b3d7ff;
+     height:600px;
+     color:white;
+     margin-left: 50px;
+     overflow-y: auto;
+ }
+
+ .prize-div{
+     color:white;
+ }
+
+.textarea{
+
+}
+
+.cmt{
+    float:right;
+}
+
+.comments{
+    border:2px solid  #a6e1ec;
+    width:700px;
+    height:100px;
+    margin:20px;
+
+}
+
+.user-name{
+    font-size:16px;
+    font-weight: bold;
+    margin-right:2px;
+    color:#2E9BDF;
+}
+
+
+@media screen and (max-width :975px){
+    #shopping-cart-img{
+        background-size: 40px 22px;
+    }
+
+    #shopping-div{
+
+    }
+}
+
+@media  screen and (max-width: 778px) {
+
+   #form, #section{
+        margin:0 auto;
+        margin-top:60px;
+        width:100%;
+    }
+    
+    
+
+    #aside{
+        height:100px;
+        width:100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 376px) {
+    #footer{
+        height:90px;
+    }
+}
+
+ @media only screen and (max-width: 1105px) {
+     #shopping-div{
+         margin-left:100px;
+     }
+ }
+
+ @media only screen and (max-width: 990px) {
+     #shopping-div{
+         margin:50px -20px;
+     }
+ }
+
+
+ @media only screen and (max-width: 500px) {
+     #items{
+         width:100%;
+     }
+     #shopping-div{
+         width:100%;
+     }
+
+
+ }
+
+
+ @media only screen and (max-width: 383px) {
+
+
+
+ }
+
+ @media only screen and (max-width: 1155px) {
+       .desc{
+          float:left;
+       }
+     .title-div{
+         float:left;
+     }
+     .pab{
+         float:left;
+     }
+     .btn-cmt{
+         margin-left:170px;
+
+     }
+     .textarea{
+         float:left;
+     }
+
+
+ }
+
+ @media only screen and (max-width:999px){
+     .desc{
+         width:200px;
+     }
+     .textarea{
+         width:400px;
+     }
+     .comments{
+         width:500px;
+     }
+     .btn-cmt{
+         margin-left:130px;
+     }
+     .item-div{
+         width:600px;
+     }
+
+     .comment-label{
+         margin-right:100px;
+     }
+ }
+
+ @media only screen and (max-width:630px){
+     #image-div{
+         width:200px;
+         height:230px;
+     }
+
+    .comments{
+       overflow-y: auto;
+        width:300px;
+        margin-left:-1px;
+    }
+
+     .item-div{
+         width:350px;
+     }
+
+     .textarea{
+         width:300px;
+     }
+
+     .pab{
+         margin-left:20px;
+     }
+
+     .btn-cmt{
+         margin-left:10px;
+     }
+ }
+
+ @media only screen and (max-width:395px){
+     .comments{
+         width:220px;
+         overflow-y: auto;
+     }
+     .textarea{
+         width:220px;
+     }
+
+     .btn-cmt{
+         margin-right:100px;
+     }
+
+ }
+
+
+
+
+
+
+
+
+
+
+

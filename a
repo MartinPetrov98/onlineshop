@@ -1,0 +1,24 @@
+[33mcommit c391d932ec457b3d1253edde546cbf4b9de16bbc[m[33m ([m[1;36mHEAD -> [m[1;32mb123[m[33m)[m
+Author: Martin <destrooo911@abv.bg>
+Date:   Fri Jun 29 16:30:36 2018 +0300
+
+    i
+    Fixing title
+
+[33mcommit 51c210413c87fbd8afc6383bcbb093ef3124aa02[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Martin <destrooo911@abv.bg>
+Date:   Fri Jun 29 16:22:59 2018 +0300
+
+    fix title in app.blade.php
+
+[33mcommit e6021b81ea980f1de843705cf75b2bbd1676341b[m
+Author: Martin <destrooo911@abv.bg>
+Date:   Fri Jun 29 15:31:32 2018 +0300
+
+    Modification of the app file
+
+[33mcommit 9ef554213382906b69d8d5f61667d5f22aa3d837[m
+Author: Martin <destrooo911@abv.bg>
+Date:   Fri Jun 29 15:01:59 2018 +0300
+
+    basic page of app
